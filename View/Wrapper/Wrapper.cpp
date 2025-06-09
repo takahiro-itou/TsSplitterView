@@ -17,7 +17,6 @@ namespace  Common  {
 //
 
 SampleDocument::SampleDocument()
-    : m_ptrObj { new WrapTarget() }
 {
 }
 
@@ -38,32 +37,6 @@ SampleDocument::~SampleDocument()
 
 SampleDocument::!SampleDocument()
 {
-    if ( this->m_ptrObj ) {
-        delete  this->m_ptrObj;
-        this->m_ptrObj  = nullptr;
-    }
-}
-
-//----------------------------------------------------------------
-//    入力メッセージ中に含まれるアルファベットを数える。
-//
-
-int
-SampleDocument::countAlphabet()
-{
-    return ( this->m_ptrObj->countAlphabet() );
-}
-
-//----------------------------------------------------------------
-//    メッセージを設定する。
-//
-
-void
-SampleDocument::setMessage(
-        System::String^ message)
-{
-    std::string tmp = msclr::interop::marshal_as<std::string>(message);
-    this->m_ptrObj->setMessage(tmp);
 }
 
 }   //  End of namespace  Common
