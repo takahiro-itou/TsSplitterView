@@ -131,6 +131,8 @@
   <ItemGroup>
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileReader.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileWriter.h" />
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\ServicePmtTable.h" />
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsCrc32.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterProject.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterTypes.h" />
   </ItemGroup>
