@@ -124,10 +124,15 @@
   <ItemGroup>
     <ClCompile Include="..\..\Core\Lib\Common\FileReader.cpp" />
     <ClCompile Include="..\..\Core\Lib\Common\FileWriter.cpp" />
+    <ClCompile Include="..\..\Core\Lib\Common\ServicePmtTable.cpp" />
+    <ClCompile Include="..\..\Core\Lib\Common\TsCrc32.cpp" />
+    <ClCompile Include="..\..\Core\Lib\DocCls/TsFileSplitter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileReader.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileWriter.h" />
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\ServicePmtTable.h" />
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsCrc32.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterProject.h" />
     <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterTypes.h" />
   </ItemGroup>
