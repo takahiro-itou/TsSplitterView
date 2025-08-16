@@ -1,3 +1,3 @@
 
 msbuild -restore -t:Rebuild -p:Configuration="Release" -p:Platform=x64  ^
-    TsSplitterView.sln
+    TsSplitterView.Net48.sln
