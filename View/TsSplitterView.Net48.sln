@@ -9,8 +9,6 @@ EndProject
 
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wrapper.Net48", "Cli.NetFramework4.8\Wrapper.Net48.vcxproj", "{39572160-04E9-4F8F-BA9F-422747AD772F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wrapper.Net80", "Cli.Net8\Wrapper.Net80.vcxproj", "{4869195C-1E29-42CF-9FB5-52CE89AC49B1}"
-EndProject
 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsControl", "WinFormsControl\WinFormsControl.csproj", "{58D5A5EA-55FA-43CA-B205-7B1312FE1A79}"
 EndProject
@@ -54,19 +52,6 @@ Global
         {39572160-04E9-4F8F-BA9F-422747AD772F}.Release|x64.Build.0 = Release|x64
         {39572160-04E9-4F8F-BA9F-422747AD772F}.Release|x86.ActiveCfg = Release|Win32
         {39572160-04E9-4F8F-BA9F-422747AD772F}.Release|x86.Build.0 = Release|Win32
-
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|Any CPU.ActiveCfg = Debug|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|Any CPU.Build.0 = Debug|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|x64.ActiveCfg = Debug|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|x64.Build.0 = Debug|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|x86.ActiveCfg = Debug|Win32
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Debug|x86.Build.0 = Debug|Win32
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|Any CPU.ActiveCfg = Release|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|Any CPU.Build.0 = Release|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|x64.ActiveCfg = Release|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|x64.Build.0 = Release|x64
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|x86.ActiveCfg = Release|Win32
-        {4869195C-1E29-42CF-9FB5-52CE89AC49B1}.Release|x86.Build.0 = Release|Win32
 
         {58D5A5EA-55FA-43CA-B205-7B1312FE1A79}.Debug|Any CPU.ActiveCfg = Debug|x64
         {58D5A5EA-55FA-43CA-B205-7B1312FE1A79}.Debug|Any CPU.Build.0 = Debug|x64
