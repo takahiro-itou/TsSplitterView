@@ -21,15 +21,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Core\Lib\Common\SampleDocument.cpp">
+    <ClCompile Include="..\..\Core\Lib\Common\FileReader.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Core\Lib\Common\FileWriter.cpp">
       <Filter>Source Files\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Core\Include\Sample\Common\SampleDocument.h">
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileReader.h">
       <Filter>Header Files\Common</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Core\Include\Sample\Common\SampleSettings.h">
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\FileWriter.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterProject.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Core\Include\TsSplitter\Common\TsSplitterTypes.h">
       <Filter>Header Files\Common</Filter>
     </ClInclude>
   </ItemGroup>

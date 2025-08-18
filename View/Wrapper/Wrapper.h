@@ -14,7 +14,7 @@
 
 #pragma once
 
-#include    "TsSplitter/Common/SampleDocument.h"
+#include    "TsSplitter/Common/TsSplitterTypes.h"
 
 using namespace System;
 
@@ -85,32 +85,11 @@ public:
 //
 //    Public Member Functions.
 //
-public:
-
-    //----------------------------------------------------------------
-    /**   入力メッセージ中に含まれるアルファベットを数える。
-    **
-    **  @param [in] message   入力データ
-    **  @return     半角アルファベット [A-Za-z] の文字数
-    **/
-    int
-    countAlphabet();
 
 //========================================================================
 //
 //    Accessors.
 //
-public:
-
-    //----------------------------------------------------------------
-    /**   メッセージを設定する。
-    **
-    **  @param [in] message   入力データ
-    **  @return     void.
-    **/
-    void
-    setMessage(
-            System::String^ message);
 
 //========================================================================
 //
@@ -126,11 +105,7 @@ public:
 //
 //    Member Variables.
 //
-private:
 
-    typedef     TsSplitter::Common::SampleDocument  WrapTarget;
-
-    WrapTarget  *   m_ptrObj;
 };
 
 }   //  End of namespace  Common
