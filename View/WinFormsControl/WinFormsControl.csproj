@@ -2,13 +2,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>
-      net8.0-windows;
-    </TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>10.0</LangVersion>
     <Nullable>enable</Nullable>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
 </Project>
